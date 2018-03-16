@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <title>Pokemon </title>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Pokemons App</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="#">Electrico</a>
+                </li>
+                <li>
+                    <a href="#">Fuego</a>
+                </li>
+                <li>
+                    <a href="#">Agua</a>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Otros
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#">Planta</a>
+                        </li>
+                        <li>
+                            <a href="#">Tierra</a>
+                        </li>
+                        <li>
+                            <a href="#">Psiquico</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="navbar-form navbar-left" action="/action_page.php">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" type="">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="dropdown">
+                    <b>Ordenador por:</b>
+                    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Escoge tu opcion
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#">Nombre</a>
+                        </li>
+                        <li>
+                            <a href="#">Peso</a>
+                        </li>
+                        <li>
+                            <a href="#">Altura</a>
+                        </li>
+                    </ul>
+                    <button type="button" class="btn">
+                        <span class="glyphicon glyphicon-sort"></span>
+                    </button>
+                    <label class="checkbox-inline">
+                        <input type="checkbox" value="">Mostrar estadisticas</label>
+                </div>
+            </div>
+        </div>
+        </br>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="panel-group">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">CHARMANDER</div>
+                        <div class="panel-body divcosas">
+                            <div class="div-imagen">
+                                <div class="imagen">
+                                    <img class="imgpokemon" src="http://guidesmedia.ign.com/guides/059687/images/blackwhite/pokemans_004.gif">
+                                </div>
+
+                                <div class="info">
+                                    <div class="tipo">
+                                        <span class="label label-info tipopoke">FIRE</span>
+                                    </div>
+                                    <div class="infopoke">
+                                        <p>Height: 0.6 m</p>
+                                        <p>Weight: 8.5 kg</p>
+                                        <p>Color: Red</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="procesos">
+                                <div class="progresstitulo">
+                                    <div class="titulo">
+                                        <b>HP</b>
+                                    </div>
+                                    <div class="pro">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                                aria-valuemax="100" style="width:39%">
+                                                39%
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="progresstitulo">
+                                    <div class="titulo">
+                                        <b>Attack</b>
+                                    </div>
+                                    <div class="pro">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                                aria-valuemax="100" style="width:52%">
+                                                52%
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="progresstitulo">
+                                    <div class="titulo">
+                                        <b>Defense</b>
+                                    </div>
+                                    <div class="pro">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                                aria-valuemax="100" style="width:43%">
+                                                43%
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="progresstitulo">
+                                    <div class="titulo">
+                                        <b>Speed</b>
+                                    </div>
+                                    <div class="pro">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                                aria-valuemax="100" style="width:65%">
+                                                65%
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="botones">
+                                <div class="divboton">
+                                    <button type="button" class="btn btn-warning">Editar <span class="glyphicon glyphicon-pencil"></span></button>
+
+                                </div>
+                                <div class="divboton">
+                                    <button type="button" class="btn btn-danger">Eliminar <span class="glyphicon glyphicon-trash"></span></button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="panel-group">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">CHARMELEON</div>
+                        <div class="panel-body divcosas">
+                            <div class="div-imagen">
+                                <div class="imagen">
+                                    <img class="imgpokemon" src="http://guidesmedia.ign.com/guides/059687/images/blackwhite/pokemans_005.gif">
+                                </div>
+
+                                <div class="info">
+                                    <div class="tipo">
+                                        <span class="label label-info tipopoke">FIRE</span>
+                                    </div>
+                                    <div class="infopoke">
+                                        <p>Height: 1.1 m</p>
+                                        <p>Weight: 19 kg</p>
+                                        <p>Color: Red</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="procesos">
+                                <div class="progresstitulo">
+                                    <div class="titulo">
+                                        <b>HP</b>
+                                    </div>
+                                    <div class="pro">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                                aria-valuemax="100" style="width:58%">
+                                                58%
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="progresstitulo">
+                                    <div class="titulo">
+                                        <b>Attack</b>
+                                    </div>
+                                    <div class="pro">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                                aria-valuemax="100" style="width:64%">
+                                                64%
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="progresstitulo">
+                                    <div class="titulo">
+                                        <b>Defense</b>
+                                    </div>
+                                    <div class="pro">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                                aria-valuemax="100" style="width:58%">
+                                                58%
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="progresstitulo">
+                                    <div class="titulo">
+                                        <b>Speed</b>
+                                    </div>
+                                    <div class="pro">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                                aria-valuemax="100" style="width:80%">
+                                                80%
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="botones">
+                                <div class="divboton">
+                                    <button type="button" class="btn btn-warning">Editar <span class="glyphicon glyphicon-pencil"></span></button>
+
+                                </div>
+                                <div class="divboton">
+                                    <button type="button" class="btn btn-danger">Eliminar <span class="glyphicon glyphicon-trash"></span></button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="panel-group">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">CHARIZARD</div>
+                        <div class="panel-body divcosas">
+                            <div class="div-imagen">
+                                <div class="imagen">
+                                    <img class="imgpokemon" src="http://guidesmedia.ign.com/guides/059687/images/blackwhite/pokemans_006.gif">
+                                </div>
+
+                                <div class="info">
+                                    <div class="tipo">
+                                        <span class="label label-info tipopoke">FIRE</span>
+                                        <span class="label label-info tipopoke">FLYING</span>
+                                    </div>
+                                    <div class="infopoke">
+                                        <p>Height: 1.7 m</p>
+                                        <p>Weight: 90.5 kg</p>
+                                        <p>Color: Red</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="procesos">
+                                <div class="progresstitulo">
+                                    <div class="titulo">
+                                        <b>HP</b>
+                                    </div>
+                                    <div class="pro">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                                aria-valuemax="100" style="width:78%">
+                                                78%
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="progresstitulo">
+                                    <div class="titulo">
+                                        <b>Attack</b>
+                                    </div>
+                                    <div class="pro">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                                aria-valuemax="100" style="width:84%">
+                                                84%
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="progresstitulo">
+                                    <div class="titulo">
+                                        <b>Defense</b>
+                                    </div>
+                                    <div class="pro">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                                aria-valuemax="100" style="width:78%">
+                                                78%
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="progresstitulo">
+                                    <div class="titulo">
+                                        <b>Speed</b>
+                                    </div>
+                                    <div class="pro">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                                aria-valuemax="100" style="width:100%">
+                                                100%
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="botones">
+                                <div class="divboton">
+                                    <button type="button" class="btn btn-warning">Editar <span class="glyphicon glyphicon-pencil"></span></button>
+
+                                </div>
+                                <div class="divboton">
+                                    <button type="button" class="btn btn-danger">Eliminar <span class="glyphicon glyphicon-trash"></span></button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm-3">
+                <div class="panel-group">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">BULBASAUR</div>
+                        <div class="panel-body divcosas">
+                            <div class="div-imagen">
+                                <div class="imagen imagen2">
+                                    <img class="imgpokemon" src="http://guidesmedia.ign.com/guides/059687/images/blackwhite/pokemans_001.gif">
+                                </div>
+
+                                <div class="info">
+                                    <div class="tipo">
+                                        <span class="label label-info tipopoke">GRASS</span>
+                                        <span class="label label-info tipopoke">POISON</span>
+                                    </div>
+                                    <div class="infopoke">
+                                        <p>Height: 0.7 m</p>
+                                        <p>Weight: 6.9 kg</p>
+                                        <p>Color: Green</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="procesos">
+                                <div class="progresstitulo">
+                                    <div class="titulo">
+                                        <b>HP</b>
+                                    </div>
+                                    <div class="pro">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                                aria-valuemax="100" style="width:45%">
+                                                45%
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="progresstitulo">
+                                    <div class="titulo">
+                                        <b>Attack</b>
+                                    </div>
+                                    <div class="pro">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                                aria-valuemax="100" style="width:49%">
+                                                49%
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="progresstitulo">
+                                    <div class="titulo">
+                                        <b>Defense</b>
+                                    </div>
+                                    <div class="pro">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                                aria-valuemax="100" style="width:49%">
+                                                49%
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="progresstitulo">
+                                    <div class="titulo">
+                                        <b>Speed</b>
+                                    </div>
+                                    <div class="pro">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                                aria-valuemax="100" style="width:45%">
+                                                45%
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="botones">
+                                <div class="divboton">
+                                    <button type="button" class="btn btn-warning">Editar <span class="glyphicon glyphicon-pencil"></span></button>
+
+                                </div>
+                                <div class="divboton">
+                                    <button type="button" class="btn btn-danger">Eliminar <span class="glyphicon glyphicon-trash"></span></button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="panel-group">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">IVYSAUR</div>
+                        <div class="panel-body divcosas">
+                            <div class="div-imagen">
+                                <div class="imagen imagen2">
+                                    <img class="imgpokemon" src="http://guidesmedia.ign.com/guides/059687/images/blackwhite/pokemans_002.gif">
+                                </div>
+
+                                <div class="info">
+                                    <div class="tipo">
+                                        <span class="label label-info tipopoke">GRASS</span>
+                                        <span class="label label-info tipopoke">POISON</span>
+                                    </div>
+                                    <div class="infopoke">
+                                        <p>Height: 1 m</p>
+                                        <p>Weight: 13 kg</p>
+                                        <p>Color: Green</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="procesos">
+                                <div class="progresstitulo">
+                                    <div class="titulo">
+                                        <b>HP</b>
+                                    </div>
+                                    <div class="pro">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                                aria-valuemax="100" style="width:60%">
+                                                60%
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="progresstitulo">
+                                    <div class="titulo">
+                                        <b>Attack</b>
+                                    </div>
+                                    <div class="pro">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                                aria-valuemax="100" style="width:62%">
+                                                62%
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="progresstitulo">
+                                    <div class="titulo">
+                                        <b>Defense</b>
+                                    </div>
+                                    <div class="pro">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                                aria-valuemax="100" style="width:63%">
+                                                63%
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="progresstitulo">
+                                    <div class="titulo">
+                                        <b>Speed</b>
+                                    </div>
+                                    <div class="pro">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                                aria-valuemax="100" style="width:60%">
+                                                60%
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="botones">
+                                <div class="divboton">
+                                    <button type="button" class="btn btn-warning">Editar <span class="glyphicon glyphicon-pencil"></span></button>
+
+                                </div>
+                                <div class="divboton">
+                                    <button type="button" class="btn btn-danger">Eliminar <span class="glyphicon glyphicon-trash"></span></button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="panel-group">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">VENASAUR</div>
+                        <div class="panel-body divcosas">
+                            <div class="div-imagen">
+                                <div class="imagen imagen2">
+                                    <img class="imgpokemon" src="http://guidesmedia.ign.com/guides/059687/images/blackwhite/pokemans_003.gif">
+                                </div>
+
+                                <div class="info">
+                                    <div class="tipo">
+                                        <span class="label label-info tipopoke">GRASS</span>
+                                        <span class="label label-info tipopoke">POISON</span>
+                                    </div>
+                                    <div class="infopoke">
+                                        <p>Height: 2 m</p>
+                                        <p>Weight: 100 kg</p>
+                                        <p>Color: Green</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="procesos">
+                                <div class="progresstitulo">
+                                    <div class="titulo">
+                                        <b>HP</b>
+                                    </div>
+                                    <div class="pro">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                                aria-valuemax="100" style="width:80%">
+                                                80%
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="progresstitulo">
+                                    <div class="titulo">
+                                        <b>Attack</b>
+                                    </div>
+                                    <div class="pro">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                                aria-valuemax="100" style="width:82%">
+                                                82%
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="progresstitulo">
+                                    <div class="titulo">
+                                        <b>Defense</b>
+                                    </div>
+                                    <div class="pro">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                                aria-valuemax="100" style="width:83%">
+                                                83%
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="progresstitulo">
+                                    <div class="titulo">
+                                        <b>Speed</b>
+                                    </div>
+                                    <div class="pro">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                                aria-valuemax="100" style="width:80%">
+                                                80%
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="botones">
+                                <div class="divboton">
+                                    <button type="button" class="btn btn-warning">Editar <span class="glyphicon glyphicon-pencil"></span></button>
+
+                                </div>
+                                <div class="divboton">
+                                    <button type="button" class="btn btn-danger">Eliminar <span class="glyphicon glyphicon-trash"></span></button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="raw footer">
+        <div class="col-sm-6">
+                <span class="glyphicon glyphicon-info-sign"></span>               
+            Pokemons App - Examen App (M06 - UF4)
+        </div>
+        <div class="col-sm-6">
+            <span class="glyphicon glyphicon-user"></span>
+            Author: Victor Matilla
+        </div>
+    </div>
+</body>
+
+</html>
